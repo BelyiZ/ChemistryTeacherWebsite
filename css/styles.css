@@ -1,0 +1,35 @@
+html {
+    background: url(../images/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    background: none;
+}
+
+nav {
+    border-bottom: 2px solid #0275d8;
+}
+
+article {
+    margin-top: 7rem;
+    background: rgba(0, 0, 0, .3);
+}
+
+article h2 {
+    color: white;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 1.5rem 2rem;
+}
+
+article .card-deck {
+    padding: 0 1rem 2rem 1rem;
+}
+
+article .card-deck .card {
+    flex-basis: 30%;
+    margin: 1rem 0.5rem 0 !important;
+}
