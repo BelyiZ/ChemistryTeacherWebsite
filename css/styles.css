@@ -8,24 +8,26 @@ html {
 
 body {
     background: none;
+    padding-bottom: 15rem;
 }
 
 nav {
-    border-bottom: 2px solid #0275d8;
+    background-color: #505050;
 }
 
 article {
-    margin-top: 7rem;
-    background: rgba(0, 0, 0, .3);
+    padding-top: 10rem;
 }
 
 article h2 {
     color: white;
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .55);
     padding: 1.5rem 2rem;
+    margin-bottom: 0;
 }
 
 article .card-deck {
+    background: rgba(0, 0, 0, .3);
     padding: 0 1rem 2rem 1rem;
 }
 

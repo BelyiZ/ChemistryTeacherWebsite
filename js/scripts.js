@@ -5,14 +5,12 @@
 
 // Add smooth scrolling on all links inside the navbar
 (function () {
-    var navbarHeight = $('nav').height();
-
     $(".nav-item a").on('click', function(event) {
         if (this.hash !== "") {
             event.preventDefault();
             var hash = this.hash;
             $('html, body').animate({
-                scrollTop: $(hash).offset().top - navbarHeight
+                scrollTop: $(hash).offset().top
             }, 800, function(){
                 window.location.hash = hash;
             });
