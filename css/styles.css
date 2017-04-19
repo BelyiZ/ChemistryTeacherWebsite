@@ -19,6 +19,12 @@ article {
     padding-top: 10rem;
 }
 
+@media (max-width: 767px) {
+    article {
+        padding-top: 5rem;
+    }
+}
+
 article h2 {
     color: white;
     background-color: rgba(0, 0, 0, .55);
