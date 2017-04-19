@@ -23,6 +23,10 @@ article {
     article {
         padding-top: 5rem;
     }
+
+    article:first-child {
+        padding-top: 1rem;
+    }
 }
 
 article h2 {
